@@ -1,0 +1,25 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a node server for live chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "live chat with socket.io"
+  },
+  "keywords": [
+    "Html",
+    "Css",
+    "Node",
+    "Socket",
+    "Javascript"
+  ],
+  "author": "HUMAN",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}

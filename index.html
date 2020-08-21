@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/style.css">
+    <script  defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="./client.js"></script>
+    <title>Ichat = Realtime Node Socket.io chat app</title>
+</head>
+<body>
+    <nav>
+        <h2>Chat Imag or logo</h2>
+    </nav>
+    <div class="chatBoxContainer">
+    <div class="container">
+        <div class="message left">Testing1: hI</div>
+        
+        <div class="message right">Testing2: k muji</div>  
+        <div class ="message middle">Some one joined the chat</div>     
+    </div>
+    <div class="onlineStatusContainer">
+        <h3>Online users</h3>
+        <hr>
+        <div>&#9679; RODIN</div>
+
+    </div>
+</div>
+    <div class="send">
+        <form accept="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <input type="submit" class="btn">
+        </form>
+    </div>
+
+</body>
+</html>

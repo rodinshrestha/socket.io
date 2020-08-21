@@ -1,0 +1,62 @@
+body_{
+    background-color: grey;
+}
+.chatBoxContainer{
+    display: flex;
+}
+.onlineStatus{
+    border: 1px solid black;
+    width: 30%;
+    height: auto;
+    height: 70vh;
+}
+.container{
+    width: 70%;
+    background-color: red;
+    
+    height: 60vh;
+    padding: 33px;
+    margin-bottom: 30px;
+    overflow-y: auto ;
+}
+.message{
+    background-color: grey;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.left{
+    float: left;
+    clear: both;
+
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+.middle{
+    margin: auto;
+    clear: both;
+    font-style: italic;
+    margin-top:1% ;
+}
+#send-container{
+    
+    max-width: 900px;
+    width: 85%;
+    display: block;
+}
+#messageInp{
+    width: 70%;
+    border: 2px solid black;
+    height: 30px;
+}
+.btn{
+    cursor: pointer;
+    border:2px solid black;
+    height: 30px;
+}
